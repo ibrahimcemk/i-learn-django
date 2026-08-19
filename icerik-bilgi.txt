@@ -1,3 +1,5 @@
 Sanal ortamımızı "env" çalıştırmak için terminalde ana dizinimizde " .\env\Scripts\Activate " yazmamız yeterlidir.
 
 dip not: Sanal ortamımı kurmak için " python -m venv env " komudunu kullandım.
+
+" cd corporate " komuduyla corporate içine girip, " python manage.py runserver " komuduyla beraber projemizi çalıştırırız.  
