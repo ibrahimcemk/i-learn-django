@@ -1,8 +1,11 @@
-from django.http import HttpResponse
 from django.shortcuts import render
 
+def website_info(request):
+    context_data={
+        'name': 'İbrahim Cem',
+        'company':'ibozivyon',
+        'website':'ibrahimcemkeles.com',
+    
+    }
 
-def welcome_user(request):
-    user_name="İbrahim Cem"
-
-    return render(request, "welcome_user.html",{'user_name':user_name})
+    return render(request,'ibrahimcemkeles.html',context_data)
