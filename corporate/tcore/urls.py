@@ -1,8 +1,7 @@
 from django.urls import path
-from .views import index,about
+from .views import merhaba
 
 urlpatterns = [
-    path('',index,name="index"),
-    path('hakkimda',about,name="about")
+    path('',merhaba,name='index')
 ]
 
