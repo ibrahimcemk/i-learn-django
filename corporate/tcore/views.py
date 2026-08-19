@@ -1,7 +1,8 @@
 from django.http import HttpResponse
+from django.shortcuts import render
 
 
-def merhaba(request):
-    result="Merhaba Django Sayfası"
+def welcome_user(request):
+    user_name="İbrahim Cem"
 
-    return HttpResponse(result)
+    return render(request, "welcome_user.html",{'user_name':user_name})

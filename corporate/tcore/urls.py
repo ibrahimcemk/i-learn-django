@@ -1,7 +1,7 @@
 from django.urls import path
-from .views import merhaba
+from .views import welcome_user
 
 urlpatterns = [
-    path('',merhaba,name='index')
+    path('yeni-kullanici',welcome_user,),
 ]
 
